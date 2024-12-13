@@ -1,0 +1,39 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  max-width: 700px; 
+  margin: 0 auto; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px; 
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+input[type="text"] {
+  width: 96%; 
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+}
